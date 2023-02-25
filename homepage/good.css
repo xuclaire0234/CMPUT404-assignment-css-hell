@@ -1,0 +1,94 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+    height: 100%;
+    margin: 0;
+    padding-bottom: 5%; 
+    background-color: #E7E8D1; 
+}
+
+.profile {
+    float: left;
+    width: 300px;
+    border-radius: 180px; 
+    margin-right: 50px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+  }
+
+.top-header{
+    text-align: center;
+    margin-left: 250px;
+    margin-right: 250px; 
+}
+header{
+    background-color: #A7BEAE;
+}
+p.about{
+    text-align: justify;
+    font-size: large;
+}
+p.exp-para{
+    text-align: justify;
+    font-size: large;
+}
+p.edu-para{
+    margin-right: 260px;
+    text-align: justify;
+    font-size: large;
+}
+p.bene-para{
+    margin-right: 260px;
+    text-align: justify;
+    font-size: large;
+}
+.side-bar {
+    height: 100%;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 250px;
+    width: 16em;
+    float:right;
+    background-color: #ce9992;
+    text-align: center;
+    
+}
+.highlight-list{
+   padding: 0;
+}
+.highlight{
+    font-size: large;
+}
+.paragraph{
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(74, 137, 116);
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    
+    text-decoration: none;
+}
+
+
+nav li a:hover {
+    background-color: rgb(51, 51, 51);
+}
+
